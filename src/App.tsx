@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import EnglishTest from './pages/EnglishTest';
+import Header from './components/Header.tsx';
+import Footer from './components/Footer.tsx';
+import Home from './pages/Home.tsx';
+import EnglishTest from './pages/EnglishTest.js';
 
 
 const App: React.FC = () => {
