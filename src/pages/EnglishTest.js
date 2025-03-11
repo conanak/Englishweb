@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Clock, BookOpen, Brain, Search, Plus, BookOpen as FlashCard, Bell, Settings, User } from 'lucide-react';
 import { questions } from '../data/questions.ts';
-import Header from './components/Header.tsx';
 
 
 const HeaderSection = () => {

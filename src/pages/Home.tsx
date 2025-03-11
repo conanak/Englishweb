@@ -1,30 +1,5 @@
 import { Search, Bell, Settings, BookOpen, Filter, ArrowUpDown } from 'lucide-react';
-import './pages/Home.css';
-
-const Header = () => (
-    <header className="header">
-        <div className="header-container">
-            <div className="flex items-center">
-                <h1 className="logo">Glossarium</h1>
-                <div className="search-container">
-                    <Search className="search-icon w-4 h-4" />
-                    <input
-                        type="text"
-                        placeholder="Search"
-                        className="search-input"
-                    />
-                </div>
-            </div>
-            <div className="header-actions">
-                <button className="btn">New Post</button>
-                <button className="btn">Flashcards</button>
-                <Bell className="w-5 h-5" />
-                <Settings className="w-5 h-5" />
-                <img src="avatar.jpg" className="avatar" alt="User avatar" />
-            </div>
-        </div>
-    </header>
-);
+import './Home.css';
 
 const Navigation = () => (
     <nav className="navigation">
@@ -113,7 +88,6 @@ const Sidebar = () => (
 
 const Home = () => (
     <div className="min-h-screen bg-white">
-        <Header />
         <Navigation />
         <div className="main-container">
             <main className="post-list">
